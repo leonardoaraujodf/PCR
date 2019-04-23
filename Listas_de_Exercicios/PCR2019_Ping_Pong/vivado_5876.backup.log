@@ -1,0 +1,1619 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Mar 30 13:26:47 2019
+# Process ID: 5876
+# Current directory: C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6068 C:\Users\Leonardo\Documents\Arquivos Leonardo\UnB\9 Semestre\Projeto de Circuitos Reconfiguraveis\PCR2019_Ping_Pong\PCR2019_Ping_Pong.xpr
+# Log file: C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/vivado.log
+# Journal file: C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 658.832 ; gain = 88.469
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ping_pong_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ping_pong_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fsm'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/reg_leds.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'reg_leds'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/reg_score_p1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'reg_score_p1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/reg_score_p2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'reg_score_p2'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ping_pong_tb_behav xil_defaultlib.ping_pong_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p1 [reg_score_p1_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p2 [reg_score_p2_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_leds [reg_leds_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_4bits [mux_2x1_4bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_8bits [mux_2x1_8bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_1 [comparator_led_eq_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_128 [comparator_led_eq_128_default]
+Compiling architecture behavioral of entity xil_defaultlib.comp_score_eq_10 [comp_score_eq_10_default]
+Compiling architecture behavioral of entity xil_defaultlib.inc [inc_default]
+Compiling architecture behavioral of entity xil_defaultlib.dec [dec_default]
+Compiling architecture behavioral of entity xil_defaultlib.left_shift [left_shift_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_right [shift_right_default]
+Compiling architecture behavioral of entity xil_defaultlib.op_block [op_block_default]
+Compiling architecture behavioral of entity xil_defaultlib.fsm [fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_ping_pong [top_level_ping_pong_default]
+Compiling architecture bench of entity xil_defaultlib.ping_pong_tb
+Built simulation snapshot ping_pong_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ping_pong_tb_behav -key {Behavioral:sim_1:Functional:ping_pong_tb} -tclbatch {ping_pong_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ping_pong_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 732.570 ; gain = 14.684
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ping_pong_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 732.570 ; gain = 14.684
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 3 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ping_pong_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ping_pong_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sim_1/new/ping_pong_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ping_pong_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ping_pong_tb_behav xil_defaultlib.ping_pong_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p1 [reg_score_p1_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p2 [reg_score_p2_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_leds [reg_leds_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_4bits [mux_2x1_4bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_8bits [mux_2x1_8bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_1 [comparator_led_eq_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_128 [comparator_led_eq_128_default]
+Compiling architecture behavioral of entity xil_defaultlib.comp_score_eq_10 [comp_score_eq_10_default]
+Compiling architecture behavioral of entity xil_defaultlib.inc [inc_default]
+Compiling architecture behavioral of entity xil_defaultlib.dec [dec_default]
+Compiling architecture behavioral of entity xil_defaultlib.left_shift [left_shift_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_right [shift_right_default]
+Compiling architecture behavioral of entity xil_defaultlib.op_block [op_block_default]
+Compiling architecture behavioral of entity xil_defaultlib.fsm [fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_ping_pong [top_level_ping_pong_default]
+Compiling architecture bench of entity xil_defaultlib.ping_pong_tb
+Built simulation snapshot ping_pong_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ping_pong_tb_behav -key {Behavioral:sim_1:Functional:ping_pong_tb} -tclbatch {ping_pong_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ping_pong_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ping_pong_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 779.340 ; gain = 23.160
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 3 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 3 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ping_pong_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ping_pong_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sim_1/new/ping_pong_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ping_pong_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ping_pong_tb_behav xil_defaultlib.ping_pong_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p1 [reg_score_p1_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p2 [reg_score_p2_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_leds [reg_leds_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_4bits [mux_2x1_4bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_8bits [mux_2x1_8bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_1 [comparator_led_eq_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_128 [comparator_led_eq_128_default]
+Compiling architecture behavioral of entity xil_defaultlib.comp_score_eq_10 [comp_score_eq_10_default]
+Compiling architecture behavioral of entity xil_defaultlib.inc [inc_default]
+Compiling architecture behavioral of entity xil_defaultlib.dec [dec_default]
+Compiling architecture behavioral of entity xil_defaultlib.left_shift [left_shift_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_right [shift_right_default]
+Compiling architecture behavioral of entity xil_defaultlib.op_block [op_block_default]
+Compiling architecture behavioral of entity xil_defaultlib.fsm [fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_ping_pong [top_level_ping_pong_default]
+Compiling architecture bench of entity xil_defaultlib.ping_pong_tb
+Built simulation snapshot ping_pong_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ping_pong_tb_behav -key {Behavioral:sim_1:Functional:ping_pong_tb} -tclbatch {ping_pong_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ping_pong_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ping_pong_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1113.934 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 3 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 3 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ping_pong_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ping_pong_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fsm'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ping_pong_tb_behav xil_defaultlib.ping_pong_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p1 [reg_score_p1_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p2 [reg_score_p2_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_leds [reg_leds_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_4bits [mux_2x1_4bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_8bits [mux_2x1_8bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_1 [comparator_led_eq_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_128 [comparator_led_eq_128_default]
+Compiling architecture behavioral of entity xil_defaultlib.comp_score_eq_10 [comp_score_eq_10_default]
+Compiling architecture behavioral of entity xil_defaultlib.inc [inc_default]
+Compiling architecture behavioral of entity xil_defaultlib.dec [dec_default]
+Compiling architecture behavioral of entity xil_defaultlib.left_shift [left_shift_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_right [shift_right_default]
+Compiling architecture behavioral of entity xil_defaultlib.op_block [op_block_default]
+Compiling architecture behavioral of entity xil_defaultlib.fsm [fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_ping_pong [top_level_ping_pong_default]
+Compiling architecture bench of entity xil_defaultlib.ping_pong_tb
+Built simulation snapshot ping_pong_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ping_pong_tb_behav -key {Behavioral:sim_1:Functional:ping_pong_tb} -tclbatch {ping_pong_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ping_pong_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ping_pong_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1113.934 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 3 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ping_pong_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ping_pong_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fsm'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ping_pong_tb_behav xil_defaultlib.ping_pong_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p1 [reg_score_p1_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p2 [reg_score_p2_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_leds [reg_leds_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_4bits [mux_2x1_4bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_8bits [mux_2x1_8bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_1 [comparator_led_eq_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_128 [comparator_led_eq_128_default]
+Compiling architecture behavioral of entity xil_defaultlib.comp_score_eq_10 [comp_score_eq_10_default]
+Compiling architecture behavioral of entity xil_defaultlib.inc [inc_default]
+Compiling architecture behavioral of entity xil_defaultlib.dec [dec_default]
+Compiling architecture behavioral of entity xil_defaultlib.left_shift [left_shift_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_right [shift_right_default]
+Compiling architecture behavioral of entity xil_defaultlib.op_block [op_block_default]
+Compiling architecture behavioral of entity xil_defaultlib.fsm [fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_ping_pong [top_level_ping_pong_default]
+Compiling architecture bench of entity xil_defaultlib.ping_pong_tb
+Built simulation snapshot ping_pong_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ping_pong_tb_behav -key {Behavioral:sim_1:Functional:ping_pong_tb} -tclbatch {ping_pong_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ping_pong_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ping_pong_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1113.934 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 3 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ping_pong_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ping_pong_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sim_1/new/ping_pong_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ping_pong_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ping_pong_tb_behav xil_defaultlib.ping_pong_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p1 [reg_score_p1_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p2 [reg_score_p2_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_leds [reg_leds_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_4bits [mux_2x1_4bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_8bits [mux_2x1_8bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_1 [comparator_led_eq_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_128 [comparator_led_eq_128_default]
+Compiling architecture behavioral of entity xil_defaultlib.comp_score_eq_10 [comp_score_eq_10_default]
+Compiling architecture behavioral of entity xil_defaultlib.inc [inc_default]
+Compiling architecture behavioral of entity xil_defaultlib.dec [dec_default]
+Compiling architecture behavioral of entity xil_defaultlib.left_shift [left_shift_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_right [shift_right_default]
+Compiling architecture behavioral of entity xil_defaultlib.op_block [op_block_default]
+Compiling architecture behavioral of entity xil_defaultlib.fsm [fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_ping_pong [top_level_ping_pong_default]
+Compiling architecture bench of entity xil_defaultlib.ping_pong_tb
+Built simulation snapshot ping_pong_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ping_pong_tb_behav -key {Behavioral:sim_1:Functional:ping_pong_tb} -tclbatch {ping_pong_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ping_pong_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ping_pong_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1113.934 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 3 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ping_pong_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ping_pong_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/op_block.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'op_block'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sim_1/new/ping_pong_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ping_pong_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ping_pong_tb_behav xil_defaultlib.ping_pong_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p1 [reg_score_p1_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p2 [reg_score_p2_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_leds [reg_leds_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_4bits [mux_2x1_4bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_8bits [mux_2x1_8bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_1 [comparator_led_eq_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_128 [comparator_led_eq_128_default]
+Compiling architecture behavioral of entity xil_defaultlib.comp_score_eq_10 [comp_score_eq_10_default]
+Compiling architecture behavioral of entity xil_defaultlib.inc [inc_default]
+Compiling architecture behavioral of entity xil_defaultlib.dec [dec_default]
+Compiling architecture behavioral of entity xil_defaultlib.left_shift [left_shift_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_right [shift_right_default]
+Compiling architecture behavioral of entity xil_defaultlib.op_block [op_block_default]
+Compiling architecture behavioral of entity xil_defaultlib.fsm [fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_ping_pong [top_level_ping_pong_default]
+Compiling architecture bench of entity xil_defaultlib.ping_pong_tb
+Built simulation snapshot ping_pong_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ping_pong_tb_behav -key {Behavioral:sim_1:Functional:ping_pong_tb} -tclbatch {ping_pong_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ping_pong_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ping_pong_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1113.934 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 3 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ping_pong_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ping_pong_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sim_1/new/ping_pong_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ping_pong_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ping_pong_tb_behav xil_defaultlib.ping_pong_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p1 [reg_score_p1_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p2 [reg_score_p2_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_leds [reg_leds_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_4bits [mux_2x1_4bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_8bits [mux_2x1_8bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_1 [comparator_led_eq_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_128 [comparator_led_eq_128_default]
+Compiling architecture behavioral of entity xil_defaultlib.comp_score_eq_10 [comp_score_eq_10_default]
+Compiling architecture behavioral of entity xil_defaultlib.inc [inc_default]
+Compiling architecture behavioral of entity xil_defaultlib.dec [dec_default]
+Compiling architecture behavioral of entity xil_defaultlib.left_shift [left_shift_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_right [shift_right_default]
+Compiling architecture behavioral of entity xil_defaultlib.op_block [op_block_default]
+Compiling architecture behavioral of entity xil_defaultlib.fsm [fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_ping_pong [top_level_ping_pong_default]
+Compiling architecture bench of entity xil_defaultlib.ping_pong_tb
+Built simulation snapshot ping_pong_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ping_pong_tb_behav -key {Behavioral:sim_1:Functional:ping_pong_tb} -tclbatch {ping_pong_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ping_pong_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ping_pong_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1113.934 ; gain = 0.000
+run 3 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 3 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ping_pong_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ping_pong_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sim_1/new/ping_pong_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ping_pong_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ping_pong_tb_behav xil_defaultlib.ping_pong_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p1 [reg_score_p1_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p2 [reg_score_p2_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_leds [reg_leds_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_4bits [mux_2x1_4bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_8bits [mux_2x1_8bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_1 [comparator_led_eq_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_128 [comparator_led_eq_128_default]
+Compiling architecture behavioral of entity xil_defaultlib.comp_score_eq_10 [comp_score_eq_10_default]
+Compiling architecture behavioral of entity xil_defaultlib.inc [inc_default]
+Compiling architecture behavioral of entity xil_defaultlib.dec [dec_default]
+Compiling architecture behavioral of entity xil_defaultlib.left_shift [left_shift_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_right [shift_right_default]
+Compiling architecture behavioral of entity xil_defaultlib.op_block [op_block_default]
+Compiling architecture behavioral of entity xil_defaultlib.fsm [fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_ping_pong [top_level_ping_pong_default]
+Compiling architecture bench of entity xil_defaultlib.ping_pong_tb
+Built simulation snapshot ping_pong_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ping_pong_tb_behav -key {Behavioral:sim_1:Functional:ping_pong_tb} -tclbatch {ping_pong_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ping_pong_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ping_pong_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1113.934 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ping_pong_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ping_pong_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ping_pong_tb_behav xil_defaultlib.ping_pong_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ping_pong_tb_behav -key {Behavioral:sim_1:Functional:ping_pong_tb} -tclbatch {ping_pong_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ping_pong_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ping_pong_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1113.934 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 3 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ping_pong_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ping_pong_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sim_1/new/ping_pong_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ping_pong_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ping_pong_tb_behav xil_defaultlib.ping_pong_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p1 [reg_score_p1_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_score_p2 [reg_score_p2_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_leds [reg_leds_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_4bits [mux_2x1_4bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1_8bits [mux_2x1_8bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_1 [comparator_led_eq_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_led_eq_128 [comparator_led_eq_128_default]
+Compiling architecture behavioral of entity xil_defaultlib.comp_score_eq_10 [comp_score_eq_10_default]
+Compiling architecture behavioral of entity xil_defaultlib.inc [inc_default]
+Compiling architecture behavioral of entity xil_defaultlib.dec [dec_default]
+Compiling architecture behavioral of entity xil_defaultlib.left_shift [left_shift_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_right [shift_right_default]
+Compiling architecture behavioral of entity xil_defaultlib.op_block [op_block_default]
+Compiling architecture behavioral of entity xil_defaultlib.fsm [fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_ping_pong [top_level_ping_pong_default]
+Compiling architecture bench of entity xil_defaultlib.ping_pong_tb
+Built simulation snapshot ping_pong_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ping_pong_tb_behav -key {Behavioral:sim_1:Functional:ping_pong_tb} -tclbatch {ping_pong_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ping_pong_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ping_pong_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1113.934 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 3 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:01:07 . Memory (MB): peak = 1113.934 ; gain = 0.000
+file mkdir C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/constrs_1
+close [ open {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/bin_to_7seg.vhd} w ]
+add_files {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/bin_to_7seg.vhd}}
+update_compile_order -fileset sources_1
+set_property top bin_to_7seg [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sim_1/new/ping_pong_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/bin_to_7seg.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sim_1/new/ping_pong_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/bin_to_7seg.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/fsm.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'bin_to_7seg' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bin_to_7seg_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/bin_to_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bin_to_7seg'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot bin_to_7seg_behav xil_defaultlib.bin_to_7seg -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 8 elements ; expected 7 [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/bin_to_7seg.vhd:67]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit bin_to_7seg in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'bin_to_7seg' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bin_to_7seg_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/bin_to_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bin_to_7seg'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot bin_to_7seg_behav xil_defaultlib.bin_to_7seg -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.bin_to_7seg
+Built simulation snapshot bin_to_7seg_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Leonardo/Documents/Arquivos -notrace
+couldn't read file "C:/Users/Leonardo/Documents/Arquivos": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar 31 12:32:02 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "bin_to_7seg_behav -key {Behavioral:sim_1:Functional:bin_to_7seg} -tclbatch {bin_to_7seg.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source bin_to_7seg.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1113.934 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'bin_to_7seg_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1113.934 ; gain = 0.000
+add_force {/bin_to_7seg/bin} -radix hex {2 0ns} {8 50000ps} -repeat_every 100000ps
+run 1 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1113.934 ; gain = 0.000
+close [ open {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/mux_disp.vhd} w ]
+add_files {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/mux_disp.vhd}}
+update_compile_order -fileset sources_1
+set_property top mux_disp [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_disp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj mux_disp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/mux_disp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_disp'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mux_disp_behav xil_defaultlib.mux_disp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.mux_disp
+Built simulation snapshot mux_disp_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Leonardo/Documents/Arquivos -notrace
+couldn't read file "C:/Users/Leonardo/Documents/Arquivos": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar 31 12:43:13 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mux_disp_behav -key {Behavioral:sim_1:Functional:mux_disp} -tclbatch {mux_disp.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source mux_disp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1113.934 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mux_disp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1113.934 ; gain = 0.000
+add_force {/mux_disp/disp0} -radix hex {1 0ns}
+add_force {/mux_disp/disp1} -radix hex {3 0ns}
+add_force {/mux_disp/disp2} -radix hex {5 0ns}
+add_force {/mux_disp/disp3} -radix hex {7 0ns}
+add_force {/mux_disp/sel} -radix hex {1 0ns} {2 50000ps} -repeat_every 100000ps
+run 1 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1113.934 ; gain = 0.000
+close [ open {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/mux_an.vhd} w ]
+add_files {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/mux_an.vhd}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/cnt_deco.vhd} w ]
+add_files {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/cnt_deco.vhd}}
+update_compile_order -fileset sources_1
+set_property top cnt_deco [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/mux_an.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sim_1/new/ping_pong_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/cnt_deco.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/mux_disp.vhd:]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cnt_deco' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj cnt_deco_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/cnt_deco.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cnt_deco'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot cnt_deco_behav xil_defaultlib.cnt_deco -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.cnt_deco
+Built simulation snapshot cnt_deco_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Leonardo/Documents/Arquivos -notrace
+couldn't read file "C:/Users/Leonardo/Documents/Arquivos": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar 31 13:50:06 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cnt_deco_behav -key {Behavioral:sim_1:Functional:cnt_deco} -tclbatch {cnt_deco.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source cnt_deco.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cnt_deco_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 1120.688 ; gain = 6.754
+add_force {/cnt_deco/clk} -radix bin {0 0ns} {1 50000ps} -repeat_every 100000ps
+run 1 us
+run 1 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1120.688 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cnt_deco' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj cnt_deco_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/cnt_deco.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cnt_deco'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot cnt_deco_behav xil_defaultlib.cnt_deco -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.cnt_deco
+Built simulation snapshot cnt_deco_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cnt_deco_behav -key {Behavioral:sim_1:Functional:cnt_deco} -tclbatch {cnt_deco.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source cnt_deco.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cnt_deco_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1120.688 ; gain = 0.000
+add_force {/cnt_deco/clk} -radix bin {0 0ns} {1 50000ps} -repeat_every 100000ps
+run 1 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close [ open {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/clk_div_deco.vhd} w ]
+add_files {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/clk_div_deco.vhd}}
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cnt_deco' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj cnt_deco_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot cnt_deco_behav xil_defaultlib.cnt_deco -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cnt_deco_behav -key {Behavioral:sim_1:Functional:cnt_deco} -tclbatch {cnt_deco.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source cnt_deco.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cnt_deco_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1292.152 ; gain = 0.000
+add_force {/cnt_deco/clk} -radix bin {0 0ns} {1 50000ps} -repeat_every 100000ps
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top clk_div_deco [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'clk_div_deco' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj clk_div_deco_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/clk_div_deco.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clk_div_deco'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot clk_div_deco_behav xil_defaultlib.clk_div_deco -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clk_div_deco
+Built simulation snapshot clk_div_deco_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Leonardo/Documents/Arquivos -notrace
+couldn't read file "C:/Users/Leonardo/Documents/Arquivos": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar 31 14:15:55 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "clk_div_deco_behav -key {Behavioral:sim_1:Functional:clk_div_deco} -tclbatch {clk_div_deco.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source clk_div_deco.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'clk_div_deco_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 1292.152 ; gain = 0.000
+add_force {/clk_div_deco/clk} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/clk_div_deco/clk} -radix bin {0 0ns} {1 50000ps} -repeat_every 100000ps
+run 1 us
+run 2 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'clk_div_deco' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj clk_div_deco_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/clk_div_deco.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clk_div_deco'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot clk_div_deco_behav xil_defaultlib.clk_div_deco -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clk_div_deco
+Built simulation snapshot clk_div_deco_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "clk_div_deco_behav -key {Behavioral:sim_1:Functional:clk_div_deco} -tclbatch {clk_div_deco.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source clk_div_deco.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'clk_div_deco_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1292.152 ; gain = 0.000
+add_force {/clk_div_deco/clk} -radix bin {0 0ns} {1 50000ps} -repeat_every 100000ps
+run 2 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close [ open {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/disp_decoder.vhd} w ]
+add_files {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/disp_decoder.vhd}}
+update_compile_order -fileset sources_1
+set_property top disp_decoder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'disp_decoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj disp_decoder_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/mux_an.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_an'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/disp_decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'disp_decoder'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot disp_decoder_behav xil_defaultlib.disp_decoder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3311] expression has 5 elements ; formal 'bin' expects 4 [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/disp_decoder.vhd:89]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit disp_decoder in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'disp_decoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj disp_decoder_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/disp_decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'disp_decoder'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot disp_decoder_behav xil_defaultlib.disp_decoder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.mux_disp [mux_disp_default]
+Compiling architecture behavioral of entity xil_defaultlib.bin_to_7seg [bin_to_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_an [mux_an_default]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_deco [cnt_deco_default]
+Compiling architecture behavioral of entity xil_defaultlib.clk_div_deco [clk_div_deco_default]
+Compiling architecture behavioral of entity xil_defaultlib.disp_decoder
+Built simulation snapshot disp_decoder_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Leonardo/Documents/Arquivos -notrace
+couldn't read file "C:/Users/Leonardo/Documents/Arquivos": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar 31 14:38:27 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "disp_decoder_behav -key {Behavioral:sim_1:Functional:disp_decoder} -tclbatch {disp_decoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source disp_decoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'disp_decoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1396.730 ; gain = 0.000
+add_force {/disp_decoder/disp0} -radix hex {5 0ns}
+add_force {/disp_decoder/disp1} -radix hex {4 0ns}
+add_force {/disp_decoder/disp2} -radix hex {3 0ns}
+add_force {/disp_decoder/disp3} -radix hex {2 0ns}
+add_force {/disp_decoder/on_disp} -radix bin {1001 0ns}
+add_force {/disp_decoder/clk} -radix bin {0 0ns} {1 50000ps} -repeat_every 100000ps
+run 3 us
+run 3 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'disp_decoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj disp_decoder_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/disp_decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'disp_decoder'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot disp_decoder_behav xil_defaultlib.disp_decoder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <an> does not exist in entity <mux_disp>.  Please compare the definition of block <mux_disp> to its component declaration and its instantion to detect the mismatch. [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/disp_decoder.vhd:75]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit disp_decoder in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'disp_decoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj disp_decoder_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/disp_decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'disp_decoder'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot disp_decoder_behav xil_defaultlib.disp_decoder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.mux_disp [mux_disp_default]
+Compiling architecture behavioral of entity xil_defaultlib.bin_to_7seg [bin_to_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_an [mux_an_default]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_deco [cnt_deco_default]
+Compiling architecture behavioral of entity xil_defaultlib.clk_div_deco [clk_div_deco_default]
+Compiling architecture behavioral of entity xil_defaultlib.disp_decoder
+Built simulation snapshot disp_decoder_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "disp_decoder_behav -key {Behavioral:sim_1:Functional:disp_decoder} -tclbatch {disp_decoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source disp_decoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'disp_decoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1396.730 ; gain = 0.000
+add_force {/disp_decoder/disp0} -radix hex {1 0ns}
+add_force {/disp_decoder/disp1} -radix hex {2 0ns}
+add_force {/disp_decoder/disp2} -radix hex {3 0ns}
+add_force {/disp_decoder/disp3} -radix hex {4 0ns}
+add_force {/disp_decoder/on_disp} -radix bin {1001 0ns}
+add_force {/disp_decoder/clk} -radix bin {0 0ns} {1 50000ps} -repeat_every 100000ps
+run 3 us
+run 5 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5 us
+run 5 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'disp_decoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj disp_decoder_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/mux_an.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_an'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/mux_disp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_disp'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot disp_decoder_behav xil_defaultlib.disp_decoder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.mux_disp [mux_disp_default]
+Compiling architecture behavioral of entity xil_defaultlib.bin_to_7seg [bin_to_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_an [mux_an_default]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_deco [cnt_deco_default]
+Compiling architecture behavioral of entity xil_defaultlib.clk_div_deco [clk_div_deco_default]
+Compiling architecture behavioral of entity xil_defaultlib.disp_decoder
+Built simulation snapshot disp_decoder_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "disp_decoder_behav -key {Behavioral:sim_1:Functional:disp_decoder} -tclbatch {disp_decoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source disp_decoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'disp_decoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1396.730 ; gain = 0.000
+add_force {/disp_decoder/disp0} -radix hex {1 0ns}
+add_force {/disp_decoder/disp1} -radix hex {2 0ns}
+add_force {/disp_decoder/disp2} -radix hex {3 0ns}
+add_force {/disp_decoder/disp3} -radix hex {4 0ns}
+add_force {/disp_decoder/on_disp} -radix hex {1001 0ns}
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '1001': Object size 4 does not match size of given value 1001.
+add_force {/disp_decoder/on_disp} -radix bin {1001 0ns}
+add_force {/disp_decoder/clk} -radix bin {0 0ns} {1 25000ps} -repeat_every 50000ps
+run 5 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'disp_decoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj disp_decoder_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/bin_to_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bin_to_7seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/cnt_deco.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cnt_deco'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0295853778f14b02a500862f9cc5327c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot disp_decoder_behav xil_defaultlib.disp_decoder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.mux_disp [mux_disp_default]
+Compiling architecture behavioral of entity xil_defaultlib.bin_to_7seg [bin_to_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_an [mux_an_default]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_deco [cnt_deco_default]
+Compiling architecture behavioral of entity xil_defaultlib.clk_div_deco [clk_div_deco_default]
+Compiling architecture behavioral of entity xil_defaultlib.disp_decoder
+Built simulation snapshot disp_decoder_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "disp_decoder_behav -key {Behavioral:sim_1:Functional:disp_decoder} -tclbatch {disp_decoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source disp_decoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'disp_decoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1396.730 ; gain = 0.000
+add_force {/disp_decoder/disp0} -radix hex {1 0ns}
+add_force {/disp_decoder/disp1} -radix hex {2 0ns}
+add_force {/disp_decoder/disp2} -radix hex {3 0ns}
+add_force {/disp_decoder/disp3} -radix hex {4 0ns}
+add_force {/disp_decoder/on_disp} -radix hex {1001 0ns}
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '1001': Object size 4 does not match size of given value 1001.
+add_force {/disp_decoder/on_disp} -radix bin {1001 0ns}
+add_force {/disp_decoder/clk} -radix bin {0 0ns} {1 25000ps} -repeat_every 50000ps
+run 5 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  1 00:17:17 2019...

@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar 29 12:34:38 2019
+# Process ID: 2516
+# Current directory: C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3980 C:\Users\Leonardo\Documents\Arquivos Leonardo\UnB\9 Semestre\Projeto de Circuitos Reconfiguraveis\PCR2019_Ping_Pong\PCR2019_Ping_Pong.xpr
+# Log file: C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/vivado.log
+# Journal file: C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:11 . Memory (MB): peak = 712.184 ; gain = 116.457
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/fsm.vhd} w ]
+add_files {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/fsm.vhd}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/top_level_ping_pong.vhd} w ]
+add_files {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR2019_Ping_Pong/PCR2019_Ping_Pong.srcs/sources_1/new/top_level_ping_pong.vhd}}
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 29 13:58:35 2019...

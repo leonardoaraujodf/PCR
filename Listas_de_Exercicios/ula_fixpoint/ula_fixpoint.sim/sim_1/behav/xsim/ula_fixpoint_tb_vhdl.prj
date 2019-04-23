@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ula_fixpoint.srcs/sources_1/new/ula_fixpoint.vhd" \
+"../../../../ula_fixpoint.srcs/sim_1/new/ula_fixpoint_tb.vhd" \
+
+# Do not sort compile order
+nosort

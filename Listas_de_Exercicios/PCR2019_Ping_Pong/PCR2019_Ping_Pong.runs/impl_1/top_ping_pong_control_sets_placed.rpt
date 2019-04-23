@@ -1,0 +1,81 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Apr  4 11:04:49 2019
+| Host         : Leonardo-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file top_ping_pong_control_sets_placed.rpt
+| Design       : top_ping_pong
+| Device       : xc7a35t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    12 |
+| Unused register locations in slices containing registers |    56 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      2 |            4 |
+|      4 |            2 |
+|      8 |            1 |
+|     14 |            1 |
+|    16+ |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               4 |            3 |
+| No           | No                    | Yes                    |              12 |            8 |
+| No           | Yes                   | No                     |              42 |           13 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              22 |            6 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------+---------------+-----------------------------------------+------------------+----------------+
+|               Clock Signal               | Enable Signal |             Set/Reset Signal            | Slice Load Count | Bel Load Count |
++------------------------------------------+---------------+-----------------------------------------+------------------+----------------+
+|  G2/G2/FSM_onehot_current_state_reg[5]_0 |               | G2/G2/clr_reg_led1                      |                1 |              1 |
+|  G2/G2/clr_reg_led1                      |               | G2/G2/FSM_onehot_current_state_reg[5]_0 |                1 |              1 |
+|  clk_IBUF_BUFG                           |               |                                         |                2 |              2 |
+|  clk_10_BUFG                             |               | G2/G2/FSM_onehot_current_state_reg[5]_0 |                1 |              2 |
+|  clk_10_BUFG                             |               | G2/G2/clr_reg_led1                      |                2 |              2 |
+|  G3/G3/CLK                               |               |                                         |                1 |              2 |
+|  clk_10_BUFG                             | G2/G2/Q[3]    | G2/G2/Q[1]                              |                2 |              4 |
+|  clk_10_BUFG                             | G2/G2/Q[5]    | G2/G2/Q[1]                              |                1 |              4 |
+|  clk_10_BUFG                             |               | btnU_IBUF                               |                5 |              8 |
+|  clk_10_BUFG                             | G2/G2/E[0]    | G2/G2/FSM_onehot_current_state_reg[2]_0 |                3 |             14 |
+|  clk_IBUF_BUFG                           |               | G3/G3/sum[0]_i_1__1_n_0                 |                5 |             18 |
+|  clk_IBUF_BUFG                           |               | G1/clear                                |                6 |             22 |
++------------------------------------------+---------------+-----------------------------------------+------------------+----------------+
+
+

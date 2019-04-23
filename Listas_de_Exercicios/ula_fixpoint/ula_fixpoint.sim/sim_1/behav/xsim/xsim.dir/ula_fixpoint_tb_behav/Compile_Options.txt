@@ -1,0 +1,1 @@
+-wto "356ae6f4636242a5b88221b7a68e13d0" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "ula_fixpoint_tb_behav" "xil_defaultlib.ula_fixpoint_tb" -log "elaborate.log" 

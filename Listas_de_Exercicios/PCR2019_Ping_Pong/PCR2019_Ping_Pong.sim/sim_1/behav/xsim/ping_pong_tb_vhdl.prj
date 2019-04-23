@@ -1,0 +1,21 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/comp_score_eq_10.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/comparator_led_eq_1.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/comparator_led_eq_256.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/dec.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/fsm.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/inc.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/left_shift.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/mux_2x1_4bits.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/mux_2x1_8bits.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/op_block.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/reg_leds.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/reg_score_p1.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/reg_score_p2.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/shift_right.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sources_1/new/top_level_ping_pong.vhd" \
+"../../../../PCR2019_Ping_Pong.srcs/sim_1/new/ping_pong_tb.vhd" \
+
+# Do not sort compile order
+nosort

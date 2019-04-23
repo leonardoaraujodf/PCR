@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/ula_fixpoint/ula_fixpoint.srcs/sources_1/new/ula_fixpoint.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ula_fixpoint'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/ula_fixpoint/ula_fixpoint.srcs/sim_1/new/ula_fixpoint_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ula_fixpoint_tb'
