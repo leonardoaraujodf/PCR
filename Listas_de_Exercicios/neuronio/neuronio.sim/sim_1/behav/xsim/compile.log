@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/neuronio/neuronio.srcs/sources_1/imports/simauto/fpupack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/neuronio/neuronio.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'addsubfsm_v6'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/neuronio/neuronio.srcs/sources_1/imports/simauto/entities.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/neuronio/neuronio.srcs/sources_1/imports/simauto/multiplierfsm_v2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multiplierfsm_v2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/neuronio/neuronio.srcs/sources_1/imports/simauto/neuronio.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'neuronio'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/neuronio/neuronio.srcs/sources_1/imports/simauto/tb_neuron.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_neuron'

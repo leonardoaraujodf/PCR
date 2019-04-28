@@ -1,0 +1,39 @@
+clc;
+clear all;
+close all;
+
+N=100; % numero de vetores de teste aleatorios
+EW=8; % tamanho do expoente
+FW=18; % tamanho da mantissa
+
+floatx_fid = fopen('floatx.txt','w');
+floata_fid = fopen('floata.txt','w');
+floatb_fid = fopen('floatb.txt','w');
+floatc_fid = fopen('floatc.txt','w');
+
+binx_fid = fopen('binx.txt','w');
+bina_fid = fopen('bina.txt','w');
+binb_fid = fopen('binb.txt','w');
+binc_fid = fopen('binc.txt','w');
+
+max_values = 10; % os valores das entradas e constantes estarao entre -10 e 10
+
+rng('default');
+
+for i=1:N
+    x = max_values*(rand()-0.5);
+    a = max_values*(rand()-0.5);
+    b(i) = max_values*(rand()-0.5);
+    c(i) = max_values*(rand()-0.5);
+    
+end
+
+fclose(floatx_fid);
+fclose(floata_fid);
+fclose(floatb_fid);
+fclose(floatc_fid);
+
+fclose(binx_fid);
+fclose(bina_fid);
+fclose(binb_fid);
+fclose(binc_fid);

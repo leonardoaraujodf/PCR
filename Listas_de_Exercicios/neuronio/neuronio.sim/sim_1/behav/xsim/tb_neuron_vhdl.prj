@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../neuronio.srcs/sources_1/imports/simauto/fpupack.vhd" \
+"../../../../neuronio.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd" \
+"../../../../neuronio.srcs/sources_1/imports/simauto/entities.vhd" \
+"../../../../neuronio.srcs/sources_1/imports/simauto/multiplierfsm_v2.vhd" \
+"../../../../neuronio.srcs/sources_1/imports/simauto/neuronio.vhd" \
+"../../../../neuronio.srcs/sources_1/imports/simauto/tb_neuron.vhd" \
+
+# Do not sort compile order
+nosort
