@@ -143,7 +143,7 @@ begin
     end process;
 
     rom_c: process
-    file infile	: text is in "binb.txt"; -- input file declaration
+    file infile	: text is in "binc.txt"; -- input file declaration
     variable inline : line; -- line number declaration
     variable dataf  : std_logic_vector(FP_WIDTH-1 downto 0); 
     begin

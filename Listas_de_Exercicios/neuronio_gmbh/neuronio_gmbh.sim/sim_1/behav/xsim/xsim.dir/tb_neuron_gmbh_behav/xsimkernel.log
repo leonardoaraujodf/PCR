@@ -1,7 +1,7 @@
-Running: xsim.dir/tb_neuron_gmbh_behav/xsimk.exe -simmode gui -wdb tb_neuron_gmbh_behav.wdb -simrunnum 0 -socket 50824
+Running: xsim.dir/tb_neuron_gmbh_behav/xsimk.exe -simmode gui -wdb tb_neuron_gmbh_behav.wdb -simrunnum 0 -socket 51576
 Design successfully loaded
-Design Loading Memory Usage: 6040 KB (Peak: 6040 KB)
-Design Loading CPU Usage: 46 ms
+Design Loading Memory Usage: 6056 KB (Peak: 6056 KB)
+Design Loading CPU Usage: 30 ms
 Simulation completed
-Simulation Memory Usage: 7328 KB (Peak: 7328 KB)
-Simulation CPU Usage: 202 ms
+Simulation Memory Usage: 7068 KB (Peak: 7068 KB)
+Simulation CPU Usage: 77 ms

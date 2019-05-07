@@ -18,22 +18,24 @@ binc_fid = fopen('binc.txt','w');
 
 max_values = 20; % os valores das entradas e constantes estarao entre -10 e 10
 
-rng('default');
+rng(31051995);
+
+x = max_values*(rand(1,N)-0.5);
+a = max_values*(rand(1,N)-0.5);
+b = max_values*(rand(1,N)-0.5);
+c = max_values*(rand(1,N)-0.5);
+
+fprintf(floatx_fid,'%f\n',x);
+fprintf(floata_fid,'%f\n',a);
+fprintf(floatb_fid,'%f\n',b);
+fprintf(floatc_fid,'%f\n',c);
 
 for i=1:N
-    x = max_values*(rand()-0.5);
-    a = max_values*(rand()-0.5);
-    b = max_values*(rand()-0.5);
-    c = max_values*(rand()-0.5);
-    x_bin = float2bin(EW,FW,x);
-    a_bin = float2bin(EW,FW,a);
-    b_bin = float2bin(EW,FW,b);
-    c_bin = float2bin(EW,FW,c);
     
-    fprintf(floatx_fid,'%f\n',x);
-    fprintf(floata_fid,'%f\n',a);
-    fprintf(floatb_fid,'%f\n',b);
-    fprintf(floatc_fid,'%f\n',c);
+    x_bin = float2bin(EW,FW,x(i));
+    a_bin = float2bin(EW,FW,a(i));
+    b_bin = float2bin(EW,FW,b(i));
+    c_bin = float2bin(EW,FW,c(i));
     
     fprintf(binx_fid,'%s\n',x_bin);
     fprintf(bina_fid,'%s\n',a_bin);
