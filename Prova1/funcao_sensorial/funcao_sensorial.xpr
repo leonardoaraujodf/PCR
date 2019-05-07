@@ -109,15 +109,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/operadorFloatingPoint/divNR.vhd">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../Circuitos_Reconfiguraveis/operadorFloatingPoint/divNR.vhd"/>
-          <Attr Name="ImportTime" Val="1555416696"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/new/cov_erro.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
@@ -149,6 +140,15 @@
       <File Path="$PSRCDIR/sources_1/new/sensorial.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/operadorFloatingPoint/divNR.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Circuitos_Reconfiguraveis/operadorFloatingPoint/divNR.vhd"/>
+          <Attr Name="ImportTime" Val="1557233909"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
