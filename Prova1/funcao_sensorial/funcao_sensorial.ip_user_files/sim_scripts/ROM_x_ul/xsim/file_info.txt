@@ -1,0 +1,1 @@
+ROM_x_ul_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../funcao_sensorial.srcs/sources_1/ip/ROM_x_ul/ROM_x_ul_sim_netlist.vhdl,

@@ -28,6 +28,7 @@ use work.fpupack.all;
 --use UNISIM.VComponents.all;
 
 entity fixMul is
+--generic(FRAC_WIDTH : integer := 18);
 port (op_a    	 :  in std_logic_vector(FRAC_WIDTH downto 0);
       op_b    	 :  in std_logic_vector(FRAC_WIDTH downto 0);
       mul_out   : out std_logic_vector(FRAC_WIDTH*2+1 downto 0));

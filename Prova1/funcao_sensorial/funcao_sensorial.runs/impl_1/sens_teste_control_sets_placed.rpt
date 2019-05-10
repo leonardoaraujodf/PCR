@@ -1,0 +1,88 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri May 10 15:01:49 2019
+| Host         : Leonardo-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file sens_teste_control_sets_placed.rpt
+| Design       : sens_teste
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    20 |
+| Unused register locations in slices containing registers |    78 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      3 |            2 |
+|      7 |            1 |
+|     12 |            1 |
+|    16+ |           15 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              17 |           14 |
+| No           | No                    | Yes                    |               3 |            1 |
+| No           | Yes                   | No                     |             171 |           56 |
+| Yes          | No                    | No                     |              16 |            4 |
+| Yes          | No                    | Yes                    |              34 |           20 |
+| Yes          | Yes                   | No                     |             241 |          111 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------+-------------------------------------------------------+-------------------------+------------------+----------------+
+|        Clock Signal       |                     Enable Signal                     |     Set/Reset Signal    | Slice Load Count | Bel Load Count |
++---------------------------+-------------------------------------------------------+-------------------------+------------------+----------------+
+|  U1/clk_out               |                                                       |                         |                1 |              2 |
+|  clk_IBUF_BUFG            |                                                       |                         |                3 |              3 |
+|  clk_div_out_reg_n_0_BUFG |                                                       | btnC_IBUF               |                1 |              3 |
+|  clk_div_out_reg_n_0_BUFG | U0/U0/E[0]                                            | U0/U0/reset_sens        |                3 |              7 |
+|  clk_div_out_reg_n_0_BUFG |                                                       |                         |               10 |             12 |
+|  clk_div_out_reg_n_0_BUFG | U0/U1/U2_SENSORIAL/U3/U2/nx_state_reg[1]_0            |                         |                4 |             16 |
+|  clk_div_out_reg_n_0_BUFG | U0/U1/U2_SENSORIAL/U3/U2/MntResul[18]_i_1_n_0         | U0/U0/reset_sens        |                7 |             19 |
+|  clk_div_out_reg_n_0_BUFG | U0/U1/U2_SENSORIAL/U3/U2/nx_state_reg[1]_1[0]         | U0/U0/reset_sens        |               10 |             19 |
+|  clk_div_out_reg_n_0_BUFG | U0/U1/U2_SENSORIAL/U3/U2/FMul1/E[0]                   | U0/U0/reset_sens        |                7 |             21 |
+|  clk_div_out_reg_n_0_BUFG | U0/U1/U2_SENSORIAL/U3/U1/update                       | U0/U0/reset_sens        |               19 |             23 |
+|  clk_div_out_reg_n_0_BUFG | U0/U1/U2_SENSORIAL/U1/U2/update                       | U0/U0/reset_sens        |               18 |             26 |
+|  clk_div_out_reg_n_0_BUFG | U0/U1/U2_SENSORIAL/U5/U1/update                       | U0/U0/reset_sens        |               13 |             26 |
+|  clk_div_out_reg_n_0_BUFG | U0/U1/U2_SENSORIAL/U5/U3/update                       | U0/U0/reset_sens        |               17 |             26 |
+|  clk_div_out_reg_n_0_BUFG | U0/U1/U2_SENSORIAL/U1/U1/update                       | U0/U0/reset_sens        |                8 |             27 |
+|  clk_div_out_reg_n_0_BUFG | U0/U1/U2_SENSORIAL/U1/U2/FSM_onehot_state_reg[2]_0[0] | U0/U0/reset_sens        |               17 |             27 |
+|  clk_div_out_reg_n_0_BUFG | U0/U1/U2_SENSORIAL/U5/U2/update                       | U0/U0/reset_sens        |                6 |             27 |
+|  clk_div_out_reg_n_0_BUFG | U0/U1/U2_SENSORIAL/U3/U2/CpiaResul[26]_i_1_n_0        | U0/U0/reset_sens        |                6 |             27 |
+|  clk_IBUF_BUFG            |                                                       | U1/clk_out_0            |                8 |             31 |
+|  clk_IBUF_BUFG            |                                                       | clk_counter[31]_i_1_n_0 |               15 |             32 |
+|  clk_div_out_reg_n_0_BUFG |                                                       | U0/U0/reset_sens        |               33 |            108 |
++---------------------------+-------------------------------------------------------+-------------------------+------------------+----------------+
+
+

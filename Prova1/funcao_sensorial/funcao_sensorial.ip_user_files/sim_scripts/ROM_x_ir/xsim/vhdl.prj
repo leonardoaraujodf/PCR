@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../funcao_sensorial.srcs/sources_1/ip/ROM_x_ir/ROM_x_ir_sim_netlist.vhdl" \
+
+nosort

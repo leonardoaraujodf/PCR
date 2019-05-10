@@ -47,12 +47,12 @@ end fusao;
 architecture Behavioral of fusao is
 
 -- Sinais para o primeiro somador
-signal out_sum1 : STD_LOGIC_VECTOR (FP_WIDTH-1 downto 0);
-signal ready_sum1: STD_LOGIC;
+signal out_sum1 : STD_LOGIC_VECTOR (FP_WIDTH-1 downto 0) := (others => '0');
+signal ready_sum1: STD_LOGIC := '0';
 
 -- Sinais para o multiplicador
-signal out_mul : STD_LOGIC_VECTOR (FP_WIDTH-1 downto 0);
-signal ready_mul: STD_LOGIC;
+signal out_mul : STD_LOGIC_VECTOR (FP_WIDTH-1 downto 0) := (others => '0');
+signal ready_mul: STD_LOGIC := '0';
 
 
 begin

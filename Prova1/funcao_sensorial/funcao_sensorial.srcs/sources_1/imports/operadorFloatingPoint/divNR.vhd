@@ -36,8 +36,8 @@ architecture Behavioral OF divNR is
 	constant s_one : std_logic_vector(FP_WIDTH-1 downto 0) := "001111111000000000000000000";
 	
 	component fixMul is
-	generic(
-		FRAC_WIDTH : integer := 18);
+	--generic(
+		--FRAC_WIDTH : integer := 18);
 	port (op_a    	 :  in std_logic_vector(FRAC_WIDTH downto 0);
 			op_b    	 :  in std_logic_vector(FRAC_WIDTH downto 0);
 			mul_out   : out std_logic_vector(FRAC_WIDTH*2+1 downto 0));
@@ -145,7 +145,7 @@ MntNumer <= ('1' & op_a(FRAC_WIDTH-1 downto 0));
 MntDnmnd <= ('1' & op_b(FRAC_WIDTH-1 downto 0));
 
 FMul1 : fixMul
-generic map(FRAC_WIDTH => 18)
+-- generic map(FRAC_WIDTH => 18)
 port map (op_a    => opA_mul,
 			 op_b    => opB_mul,
 			 mul_out => out_mul);

@@ -64,8 +64,8 @@ U1: addsubfsm_v6 port map(
 U2: divNR port map(
             reset     => reset,
             clk       => clk,
-            op_a      => out_sum,
-            op_b      => sigma_k,
+            op_a      => sigma_k,
+            op_b      => out_sum,
             start_i	 => ready_sum,
             div_out   => G_kp1,
             ready_div => ready);

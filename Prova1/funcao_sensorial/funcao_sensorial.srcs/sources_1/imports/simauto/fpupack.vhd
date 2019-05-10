@@ -68,8 +68,8 @@ type t_wih is array( 0 to num_hidden_neurons-1 ) of t_input;
 type weight_ho is array( 0 to num_hidden_neurons-1 ) of neuron_out;  
 type t_who is array( 0 to num_output-1 ) of t_input;
 
-constant SIGMA_K_INIT : STD_LOGIC_VECTOR (FP_WIDTH-1 downto 0) := (others => '0');
-
+constant SIGMA_K_INIT : STD_LOGIC_VECTOR (FP_WIDTH-1 downto 0) := "001111100100001111010100110";
+constant SIGMA_Z : STD_LOGIC_VECTOR (FP_WIDTH-1 downto 0) := "001111110001011010001101100";
 
 
 

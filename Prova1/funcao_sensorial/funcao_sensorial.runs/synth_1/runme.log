@@ -1,0 +1,616 @@
+
+*** Running vivado
+    with args -log sens_teste.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sens_teste.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source sens_teste.tcl -notrace
+Command: synth_design -top sens_teste -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6536 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 407.727 ; gain = 101.672
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'sens_teste' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sens_teste.vhd:46]
+INFO: [Synth 8-3491] module 'sens_top_level_iprom' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sens_top_level_iprom.vhd:35' bound to instance 'U0' of component 'sens_top_level_iprom' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sens_teste.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'sens_top_level_iprom' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sens_top_level_iprom.vhd:43]
+INFO: [Synth 8-3491] module 'fsm_sens' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/fsm_sens.vhd:34' bound to instance 'U0' of component 'fsm_sens' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sens_top_level_iprom.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'fsm_sens' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/fsm_sens.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'fsm_sens' (1#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/fsm_sens.vhd:46]
+INFO: [Synth 8-3491] module 'bloco_op_sens_iprom' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/bloco_op_sens_iprom.vhd:36' bound to instance 'U1' of component 'bloco_op_sens_iprom' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sens_top_level_iprom.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'bloco_op_sens_iprom' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/bloco_op_sens_iprom.vhd:48]
+INFO: [Synth 8-3491] module 'ROM_x_ir' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/.Xil/Vivado-6688-Leonardo-PC/realtime/ROM_x_ir_stub.vhdl:5' bound to instance 'U0_ROM_x_ir' of component 'ROM_x_ir' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/bloco_op_sens_iprom.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'ROM_x_ir' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/.Xil/Vivado-6688-Leonardo-PC/realtime/ROM_x_ir_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'ROM_x_ul' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/.Xil/Vivado-6688-Leonardo-PC/realtime/ROM_x_ul_stub.vhdl:5' bound to instance 'U1_ROM_x_ul' of component 'ROM_x_ul' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/bloco_op_sens_iprom.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'ROM_x_ul' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/.Xil/Vivado-6688-Leonardo-PC/realtime/ROM_x_ul_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'sensorial' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sensorial.vhd:35' bound to instance 'U2_SENSORIAL' of component 'sensorial' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/bloco_op_sens_iprom.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'sensorial' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sensorial.vhd:45]
+INFO: [Synth 8-3491] module 'cov_erro' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/cov_erro.vhd:36' bound to instance 'U1' of component 'cov_erro' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sensorial.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'cov_erro' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/cov_erro.vhd:46]
+INFO: [Synth 8-3491] module 'multiplierfsm_v2' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/multiplierfsm_v2.vhd:26' bound to instance 'U1' of component 'multiplierfsm_v2' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/cov_erro.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'multiplierfsm_v2' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/multiplierfsm_v2.vhd:36]
+WARNING: [Synth 8-614] signal 's_mul_man' is read in the process but is not in the sensitivity list [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/multiplierfsm_v2.vhd:64]
+WARNING: [Synth 8-614] signal 's_add_exp' is read in the process but is not in the sensitivity list [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/multiplierfsm_v2.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'multiplierfsm_v2' (2#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/multiplierfsm_v2.vhd:36]
+INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd:17' bound to instance 'U2' of component 'addsubfsm_v6' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/cov_erro.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'addsubfsm_v6' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd:28]
+WARNING: [Synth 8-6014] Unused sequential element sl_reg was removed.  [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd:118]
+WARNING: [Synth 8-6014] Unused sequential element sign_reg was removed.  [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd:200]
+WARNING: [Synth 8-6014] Unused sequential element s_res_exp_reg was removed.  [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd:201]
+WARNING: [Synth 8-6014] Unused sequential element out_man_reg was removed.  [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd:202]
+WARNING: [Synth 8-6014] Unused sequential element pos_reg was removed.  [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd:226]
+INFO: [Synth 8-256] done synthesizing module 'addsubfsm_v6' (3#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'cov_erro' (4#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/cov_erro.vhd:46]
+INFO: [Synth 8-3491] module 'temp_reg1' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/temp_reg.vhd:35' bound to instance 'U2' of component 'temp_reg1' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sensorial.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'temp_reg1' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/temp_reg.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'temp_reg1' (5#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/temp_reg.vhd:43]
+INFO: [Synth 8-3491] module 'ganho' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/ganho.vhd:35' bound to instance 'U3' of component 'ganho' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sensorial.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'ganho' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/ganho.vhd:45]
+INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd:17' bound to instance 'U1' of component 'addsubfsm_v6' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/ganho.vhd:54]
+INFO: [Synth 8-3491] module 'divNR' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/operadorFloatingPoint/divNR.vhd:14' bound to instance 'U2' of component 'divNR' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/ganho.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'divNR' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/operadorFloatingPoint/divNR.vhd:28]
+	Parameter FRAC_WIDTH bound to: 18 - type: integer 
+	Parameter EXP_WIDTH bound to: 8 - type: integer 
+	Parameter FP_WIDTH bound to: 27 - type: integer 
+INFO: [Synth 8-3491] module 'fixMul' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/operadorFloatingPoint/fixMul.vhd:30' bound to instance 'FMul1' of component 'fixMul' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/operadorFloatingPoint/divNR.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'fixMul' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/operadorFloatingPoint/fixMul.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'fixMul' (6#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/operadorFloatingPoint/fixMul.vhd:37]
+INFO: [Synth 8-226] default block is never used [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/operadorFloatingPoint/divNR.vhd:169]
+INFO: [Synth 8-226] default block is never used [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/operadorFloatingPoint/divNR.vhd:229]
+WARNING: [Synth 8-6014] Unused sequential element P_reg was removed.  [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/operadorFloatingPoint/divNR.vhd:161]
+WARNING: [Synth 8-6014] Unused sequential element Vax_reg was removed.  [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/operadorFloatingPoint/divNR.vhd:162]
+WARNING: [Synth 8-6014] Unused sequential element ExpoenteR_reg was removed.  [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/operadorFloatingPoint/divNR.vhd:225]
+INFO: [Synth 8-256] done synthesizing module 'divNR' (7#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/operadorFloatingPoint/divNR.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'ganho' (8#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/ganho.vhd:45]
+INFO: [Synth 8-3491] module 'fusao' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/fusao.vhd:36' bound to instance 'U5' of component 'fusao' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sensorial.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'fusao' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/fusao.vhd:47]
+INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd:17' bound to instance 'U1' of component 'addsubfsm_v6' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/fusao.vhd:60]
+INFO: [Synth 8-3491] module 'multiplierfsm_v2' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/multiplierfsm_v2.vhd:26' bound to instance 'U2' of component 'multiplierfsm_v2' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/fusao.vhd:70]
+INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd:17' bound to instance 'U3' of component 'addsubfsm_v6' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/fusao.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'fusao' (9#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/fusao.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'sensorial' (10#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sensorial.vhd:45]
+WARNING: [Synth 8-614] signal 'ld_in_cnt' is read in the process but is not in the sensitivity list [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/bloco_op_sens_iprom.vhd:113]
+INFO: [Synth 8-256] done synthesizing module 'bloco_op_sens_iprom' (11#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/bloco_op_sens_iprom.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'sens_top_level_iprom' (12#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sens_top_level_iprom.vhd:43]
+INFO: [Synth 8-3491] module 'display_decoder' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/display_decoder.vhd:34' bound to instance 'U1' of component 'display_decoder' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sens_teste.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'display_decoder' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/display_decoder.vhd:45]
+WARNING: [Synth 8-614] signal 'disp0' is read in the process but is not in the sensitivity list [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/display_decoder.vhd:80]
+WARNING: [Synth 8-614] signal 'on_disp' is read in the process but is not in the sensitivity list [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/display_decoder.vhd:80]
+WARNING: [Synth 8-614] signal 'disp1' is read in the process but is not in the sensitivity list [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/display_decoder.vhd:80]
+WARNING: [Synth 8-614] signal 'disp2' is read in the process but is not in the sensitivity list [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/display_decoder.vhd:80]
+WARNING: [Synth 8-614] signal 'disp3' is read in the process but is not in the sensitivity list [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/display_decoder.vhd:80]
+INFO: [Synth 8-226] default block is never used [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/display_decoder.vhd:114]
+INFO: [Synth 8-256] done synthesizing module 'display_decoder' (13#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/display_decoder.vhd:45]
+WARNING: [Synth 8-614] signal 'x_fus' is read in the process but is not in the sensitivity list [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sens_teste.vhd:114]
+INFO: [Synth 8-256] done synthesizing module 'sens_teste' (14#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sens_teste.vhd:46]
+WARNING: [Synth 8-3331] design display_decoder has unconnected port disp2[3]
+WARNING: [Synth 8-3331] design display_decoder has unconnected port disp2[2]
+WARNING: [Synth 8-3331] design display_decoder has unconnected port disp2[1]
+WARNING: [Synth 8-3331] design display_decoder has unconnected port disp2[0]
+WARNING: [Synth 8-3331] design display_decoder has unconnected port on_disp[2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 460.012 ; gain = 153.957
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 460.012 ; gain = 153.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 460.012 ; gain = 153.957
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/ip/ROM_x_ir/ROM_x_ir/ROM_x_ir_in_context.xdc] for cell 'U0/U1/U0_ROM_x_ir'
+Finished Parsing XDC File [c:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/ip/ROM_x_ir/ROM_x_ir/ROM_x_ir_in_context.xdc] for cell 'U0/U1/U0_ROM_x_ir'
+Parsing XDC File [c:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/ip/ROM_x_ul/ROM_x_ul/ROM_x_ul_in_context.xdc] for cell 'U0/U1/U1_ROM_x_ul'
+Finished Parsing XDC File [c:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/ip/ROM_x_ul/ROM_x_ul/ROM_x_ul_in_context.xdc] for cell 'U0/U1/U1_ROM_x_ul'
+Parsing XDC File [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/constrs_1/imports/basys3_master/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/constrs_1/imports/basys3_master/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/constrs_1/imports/basys3_master/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sens_teste_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/sens_teste_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 786.953 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 786.953 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 786.953 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 786.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 786.953 ; gain = 480.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 786.953 ; gain = 480.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0/U1/U0_ROM_x_ir. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/U1/U1_ROM_x_ul. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 786.953 ; gain = 480.898
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'fsm_sens'
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/multiplierfsm_v2.vhd:129]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd:170]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/simauto/addsubfsm_v6.vhd:170]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'addsubfsm_v6'
+INFO: [Synth 8-5544] ROM "update" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ready_as" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "update" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ready_as" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "oper" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pos" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/imports/operadorFloatingPoint/fixMul.vhd:41]
+INFO: [Synth 8-5544] ROM "MEM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MEM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Ea" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "opA_mul" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cont" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FinDiv" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "SDOut" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "CalDiv" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "CpiaResul" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ready_div" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "in_cnt_eq_100" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "clk_div_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  inicio |                              000 |                              000
+                  espera |                              001 |                              001
+         enviar_entradas |                              010 |                              011
+            espera_saida |                              011 |                              100
+               recomecar |                              100 |                              101
+       carregar_entradas |                              101 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'fsm_sens'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 waiting |                              001 |                               00
+                  addsub |                              010 |                               01
+                  output |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'addsubfsm_v6'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 786.953 ; gain = 480.898
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     20 Bit       Adders := 4     
+	   2 Input     19 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 4     
+	   3 Input      8 Bit       Adders := 13    
+	   2 Input      8 Bit       Adders := 5     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 7     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               27 Bit    Registers := 8     
+	               20 Bit    Registers := 4     
+	               19 Bit    Registers := 4     
+	               17 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     27 Bit        Muxes := 3     
+	   2 Input     27 Bit        Muxes := 4     
+	   4 Input     26 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 8     
+	   2 Input     19 Bit        Muxes := 33    
+	   4 Input     19 Bit        Muxes := 4     
+	   2 Input     18 Bit        Muxes := 5     
+	  17 Input     17 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 22    
+	   2 Input      4 Bit        Muxes := 4     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 7     
+	   3 Input      3 Bit        Muxes := 4     
+	   8 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 5     
+	   4 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 13    
+	   2 Input      1 Bit        Muxes := 121   
+	   8 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sens_teste 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+Module fsm_sens 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 3     
+Module multiplierfsm_v2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     27 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module addsubfsm_v6 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     20 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 2     
+	   2 Input     19 Bit        Muxes := 8     
+	   2 Input      8 Bit        Muxes := 5     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 29    
+	   8 Input      1 Bit        Muxes := 1     
+Module temp_reg1 
+Detailed RTL Component Info : 
++---Registers : 
+	               27 Bit    Registers := 1     
+Module divNR 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     19 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	               19 Bit    Registers := 4     
+	               17 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     27 Bit        Muxes := 1     
+	   4 Input     26 Bit        Muxes := 1     
+	   4 Input     19 Bit        Muxes := 4     
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 1     
+	  17 Input     17 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 3     
+Module bloco_op_sens_iprom 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module display_decoder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP FMul1/multOp, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP FMul1/multOp.
+DSP Report: register A is absorbed into DSP FMul1/multOp.
+DSP Report: operator FMul1/multOp is absorbed into DSP FMul1/multOp.
+DSP Report: operator FMul1/multOp is absorbed into DSP FMul1/multOp.
+DSP Report: Generating DSP multOp, operation Mode is: A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+INFO: [Synth 8-5546] ROM "U0/U1/in_cnt_eq_100" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "U1/clk_div_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "U1/clk_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+DSP Report: Generating DSP U0/U1/U2_SENSORIAL/U1/U1/multOp, operation Mode is: A*B.
+DSP Report: operator U0/U1/U2_SENSORIAL/U1/U1/multOp is absorbed into DSP U0/U1/U2_SENSORIAL/U1/U1/multOp.
+DSP Report: operator U0/U1/U2_SENSORIAL/U1/U1/multOp is absorbed into DSP U0/U1/U2_SENSORIAL/U1/U1/multOp.
+WARNING: [Synth 8-3917] design sens_teste has port an[2] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 800.180 ; gain = 494.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name      | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|divNR            | A2*B2       | 20     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|multiplierfsm_v2 | A*B         | 20     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplierfsm_v2 | A*B         | 20     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/temp_reg.vhd:52]
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:23 ; elapsed = 00:01:24 . Memory (MB): peak = 852.992 ; gain = 546.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:23 ; elapsed = 00:01:24 . Memory (MB): peak = 854.996 ; gain = 548.941
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/temp_reg.vhd:52]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:25 ; elapsed = 00:01:26 . Memory (MB): peak = 915.922 ; gain = 609.867
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:27 ; elapsed = 00:01:28 . Memory (MB): peak = 915.922 ; gain = 609.867
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:27 ; elapsed = 00:01:28 . Memory (MB): peak = 915.922 ; gain = 609.867
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:27 ; elapsed = 00:01:28 . Memory (MB): peak = 915.922 ; gain = 609.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:27 ; elapsed = 00:01:28 . Memory (MB): peak = 915.922 ; gain = 609.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:27 ; elapsed = 00:01:29 . Memory (MB): peak = 915.922 ; gain = 609.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:27 ; elapsed = 00:01:29 . Memory (MB): peak = 915.922 ; gain = 609.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |ROM_x_ir      |         1|
+|2     |ROM_x_ul      |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |ROM_x_ir_bbox_0 |     1|
+|2     |ROM_x_ul_bbox_1 |     1|
+|3     |BUFG            |     2|
+|4     |CARRY4          |   142|
+|5     |DSP48E1         |     1|
+|6     |DSP48E1_1       |     1|
+|7     |DSP48E1_2       |     1|
+|8     |LUT1            |    51|
+|9     |LUT2            |   318|
+|10    |LUT3            |   286|
+|11    |LUT4            |   441|
+|12    |LUT5            |   298|
+|13    |LUT6            |   716|
+|14    |FDCE            |    23|
+|15    |FDPE            |    14|
+|16    |FDRE            |   440|
+|17    |FDSE            |     4|
+|18    |IBUF            |     5|
+|19    |OBUF            |    27|
++------+----------------+------+
+
+Report Instance Areas: 
++------+-------------------+---------------------+------+
+|      |Instance           |Module               |Cells |
++------+-------------------+---------------------+------+
+|1     |top                |                     |  2824|
+|2     |  U0               |sens_top_level_iprom |  2611|
+|3     |    U0             |fsm_sens             |    24|
+|4     |    U1             |bloco_op_sens_iprom  |  2587|
+|5     |      U2_SENSORIAL |sensorial            |  2508|
+|6     |        U1         |cov_erro             |   476|
+|7     |          U1       |multiplierfsm_v2_2   |   276|
+|8     |          U2       |addsubfsm_v6_3       |   200|
+|9     |        U2         |temp_reg1            |   350|
+|10    |        U3         |ganho                |   660|
+|11    |          U1       |addsubfsm_v6_1       |   251|
+|12    |          U2       |divNR                |   390|
+|13    |            FMul1  |fixMul               |   168|
+|14    |        U5         |fusao                |  1019|
+|15    |          U1       |addsubfsm_v6         |   477|
+|16    |          U2       |multiplierfsm_v2     |   343|
+|17    |          U3       |addsubfsm_v6_0       |   199|
+|18    |  U1               |display_decoder      |    96|
++------+-------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:27 ; elapsed = 00:01:29 . Memory (MB): peak = 915.922 ; gain = 609.867
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:11 ; elapsed = 00:01:18 . Memory (MB): peak = 915.922 ; gain = 282.926
+Synthesis Optimization Complete : Time (s): cpu = 00:01:28 ; elapsed = 00:01:29 . Memory (MB): peak = 915.922 ; gain = 609.867
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 145 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 915.922 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+101 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:32 ; elapsed = 00:01:34 . Memory (MB): peak = 915.922 ; gain = 621.527
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 915.922 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/sens_teste.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file sens_teste_utilization_synth.rpt -pb sens_teste_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May 10 15:00:35 2019...
