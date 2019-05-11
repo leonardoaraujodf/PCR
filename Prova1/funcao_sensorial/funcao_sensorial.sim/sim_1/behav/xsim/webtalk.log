@@ -2,13 +2,13 @@
 # Webtalk v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Thu May  9 14:55:39 2019
-# Process ID: 1048
+# Start of session at: Fri May 10 20:24:04 2019
+# Process ID: 5240
 # Current directory: C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.sim/sim_1/behav/xsim
-# Command line: wbtcv.exe -mode batch -source C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.sim/sim_1/behav/xsim/xsim.dir/display_decoder_behav/webtalk/xsim_webtalk.tcl -notrace
+# Command line: wbtcv.exe -mode batch -source C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.sim/sim_1/behav/xsim/xsim.dir/tb_sensorial_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
 source C:/Users/Leonardo/Documents/Arquivos -notrace
 couldn't read file "C:/Users/Leonardo/Documents/Arquivos": permission denied
-INFO: [Common 17-206] Exiting Webtalk at Thu May  9 14:55:39 2019...
+INFO: [Common 17-206] Exiting Webtalk at Fri May 10 20:24:04 2019...

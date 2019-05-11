@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date             : Fri May 10 15:02:41 2019
+| Date             : Fri May 10 21:55:40 2019
 | Host             : Leonardo-PC running 64-bit Service Pack 1  (build 7601)
 | Command          : report_power -file sens_teste_power_routed.rpt -pb sens_teste_power_summary_routed.pb -rpx sens_teste_power_routed.rpx
 | Design           : sens_teste
@@ -29,20 +29,20 @@ Table of Contents
 1. Summary
 ----------
 
-+--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 19.613 (Junction temp exceeded!) |
-| Design Power Budget (W)  | Unspecified*                     |
-| Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 19.152                           |
-| Device Static (W)        | 0.461                            |
-| Effective TJA (C/W)      | 5.0                              |
-| Max Ambient (C)          | 0.0                              |
-| Junction Temperature (C) | 123.1                            |
-| Confidence Level         | Low                              |
-| Setting File             | ---                              |
-| Simulation Activity File | ---                              |
-| Design Nets Matched      | NA                               |
-+--------------------------+----------------------------------+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 0.092        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 0.020        |
+| Device Static (W)        | 0.072        |
+| Effective TJA (C/W)      | 5.0          |
+| Max Ambient (C)          | 84.5         |
+| Junction Temperature (C) | 25.5         |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
 * Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
 
 
@@ -52,18 +52,19 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.843 |     2762 |       --- |             --- |
-|   LUT as Logic |     0.731 |     1684 |     20800 |            8.10 |
-|   CARRY4       |     0.072 |      142 |      8150 |            1.74 |
-|   Register     |     0.033 |      482 |     41600 |            1.16 |
-|   BUFG         |     0.006 |        2 |        32 |            6.25 |
+| Clocks         |     0.001 |        3 |       --- |             --- |
+| Slice Logic    |    <0.001 |     2761 |       --- |             --- |
+|   LUT as Logic |    <0.001 |     1677 |     20800 |            8.06 |
+|   CARRY4       |    <0.001 |      142 |      8150 |            1.74 |
+|   Register     |    <0.001 |      482 |     41600 |            1.16 |
 |   Others       |     0.000 |       36 |       --- |             --- |
-| Signals        |     0.982 |     2214 |       --- |             --- |
+|   BUFG         |     0.000 |        1 |        32 |            3.13 |
+| Signals        |     0.001 |     2209 |       --- |             --- |
 | Block RAM      |     0.000 |        1 |        50 |            2.00 |
-| DSPs           |     0.452 |        3 |        90 |            3.33 |
-| I/O            |    16.875 |       32 |       106 |           30.19 |
-| Static Power   |     0.461 |          |           |                 |
-| Total          |    19.613 |          |           |                 |
+| DSPs           |    <0.001 |        3 |        90 |            3.33 |
+| I/O            |     0.017 |       32 |       106 |           30.19 |
+| Static Power   |     0.072 |          |           |                 |
+| Total          |     0.092 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -73,16 +74,16 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     2.614 |       2.293 |      0.321 |
-| Vccaux    |       1.800 |     0.669 |       0.618 |      0.051 |
-| Vcco33    |       3.300 |     4.773 |       4.772 |      0.001 |
+| Vccint    |       1.000 |     0.013 |       0.003 |      0.010 |
+| Vccaux    |       1.800 |     0.013 |       0.001 |      0.013 |
+| Vcco33    |       3.300 |     0.006 |       0.005 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.010 |       0.000 |      0.010 |
+| Vccbram   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
@@ -126,9 +127,11 @@ Table of Contents
 2.2 Clock Constraints
 ---------------------
 
-+-------+--------+-----------------+
-| Clock | Domain | Constraint (ns) |
-+-------+--------+-----------------+
++-------------+--------+-----------------+
+| Clock       | Domain | Constraint (ns) |
++-------------+--------+-----------------+
+| sys_clk_pin | clk    |            10.0 |
++-------------+--------+-----------------+
 
 
 3. Detailed Reports
@@ -140,11 +143,10 @@ Table of Contents
 +--------------------+-----------+
 | Name               | Power (W) |
 +--------------------+-----------+
-| sens_teste         |    19.152 |
-|   U0               |     1.670 |
-|     U1             |     1.669 |
-|       U2_SENSORIAL |     1.459 |
-|   U1               |     0.306 |
+| sens_teste         |     0.020 |
+|   U0               |     0.002 |
+|     U1             |     0.002 |
+|       U2_SENSORIAL |     0.002 |
 +--------------------+-----------+
 
 

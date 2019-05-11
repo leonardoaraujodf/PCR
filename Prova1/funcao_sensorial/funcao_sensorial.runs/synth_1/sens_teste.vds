@@ -2,8 +2,8 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Fri May 10 14:58:51 2019
-# Process ID: 6688
+# Start of session at: Fri May 10 21:51:41 2019
+# Process ID: 4008
 # Current directory: C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1
 # Command line: vivado.exe -log sens_teste.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sens_teste.tcl
 # Log file: C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/sens_teste.vds
@@ -15,9 +15,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 6536 
+INFO: Helper process launched with PID 4688 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 407.727 ; gain = 101.672
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 407.121 ; gain = 100.570
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'sens_teste' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sens_teste.vhd:46]
 INFO: [Synth 8-3491] module 'sens_top_level_iprom' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sens_top_level_iprom.vhd:35' bound to instance 'U0' of component 'sens_top_level_iprom' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sens_teste.vhd:92]
@@ -27,10 +27,10 @@ INFO: [Synth 8-638] synthesizing module 'fsm_sens' [C:/Users/Leonardo/Documents/
 INFO: [Synth 8-256] done synthesizing module 'fsm_sens' (1#1) [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/fsm_sens.vhd:46]
 INFO: [Synth 8-3491] module 'bloco_op_sens_iprom' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/bloco_op_sens_iprom.vhd:36' bound to instance 'U1' of component 'bloco_op_sens_iprom' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sens_top_level_iprom.vhd:90]
 INFO: [Synth 8-638] synthesizing module 'bloco_op_sens_iprom' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/bloco_op_sens_iprom.vhd:48]
-INFO: [Synth 8-3491] module 'ROM_x_ir' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/.Xil/Vivado-6688-Leonardo-PC/realtime/ROM_x_ir_stub.vhdl:5' bound to instance 'U0_ROM_x_ir' of component 'ROM_x_ir' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/bloco_op_sens_iprom.vhd:87]
-INFO: [Synth 8-638] synthesizing module 'ROM_x_ir' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/.Xil/Vivado-6688-Leonardo-PC/realtime/ROM_x_ir_stub.vhdl:15]
-INFO: [Synth 8-3491] module 'ROM_x_ul' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/.Xil/Vivado-6688-Leonardo-PC/realtime/ROM_x_ul_stub.vhdl:5' bound to instance 'U1_ROM_x_ul' of component 'ROM_x_ul' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/bloco_op_sens_iprom.vhd:95]
-INFO: [Synth 8-638] synthesizing module 'ROM_x_ul' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/.Xil/Vivado-6688-Leonardo-PC/realtime/ROM_x_ul_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'ROM_x_ir' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/.Xil/Vivado-4008-Leonardo-PC/realtime/ROM_x_ir_stub.vhdl:5' bound to instance 'U0_ROM_x_ir' of component 'ROM_x_ir' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/bloco_op_sens_iprom.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'ROM_x_ir' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/.Xil/Vivado-4008-Leonardo-PC/realtime/ROM_x_ir_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'ROM_x_ul' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/.Xil/Vivado-4008-Leonardo-PC/realtime/ROM_x_ul_stub.vhdl:5' bound to instance 'U1_ROM_x_ul' of component 'ROM_x_ul' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/bloco_op_sens_iprom.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'ROM_x_ul' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/.Xil/Vivado-4008-Leonardo-PC/realtime/ROM_x_ul_stub.vhdl:15]
 INFO: [Synth 8-3491] module 'sensorial' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sensorial.vhd:35' bound to instance 'U2_SENSORIAL' of component 'sensorial' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/bloco_op_sens_iprom.vhd:103]
 INFO: [Synth 8-638] synthesizing module 'sensorial' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sensorial.vhd:45]
 INFO: [Synth 8-3491] module 'cov_erro' declared at 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/cov_erro.vhd:36' bound to instance 'U1' of component 'cov_erro' [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/sensorial.vhd:66]
@@ -97,7 +97,7 @@ WARNING: [Synth 8-3331] design display_decoder has unconnected port disp2[1]
 WARNING: [Synth 8-3331] design display_decoder has unconnected port disp2[0]
 WARNING: [Synth 8-3331] design display_decoder has unconnected port on_disp[2]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 460.012 ; gain = 153.957
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 459.383 ; gain = 152.832
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -110,10 +110,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 460.012 ; gain = 153.957
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 459.383 ; gain = 152.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 460.012 ; gain = 153.957
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 459.383 ; gain = 152.832
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -128,24 +128,24 @@ Parsing XDC File [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/P
 Finished Parsing XDC File [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/constrs_1/imports/basys3_master/Basys3_Master.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/constrs_1/imports/basys3_master/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sens_teste_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/sens_teste_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 786.953 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 788.500 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 786.953 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 788.500 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 786.953 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 786.953 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 788.500 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 788.500 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 786.953 ; gain = 480.898
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 788.500 ; gain = 481.949
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 786.953 ; gain = 480.898
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 788.500 ; gain = 481.949
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -153,7 +153,7 @@ Start Applying 'set_property' XDC Constraints
 Applied set_property DONT_TOUCH = true for U0/U1/U0_ROM_x_ir. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for U0/U1/U1_ROM_x_ul. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 786.953 ; gain = 480.898
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 788.500 ; gain = 481.949
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'fsm_sens'
 INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
@@ -204,7 +204,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using e
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'addsubfsm_v6'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 786.953 ; gain = 480.898
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 788.500 ; gain = 481.949
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -412,7 +412,7 @@ DSP Report: operator U0/U1/U2_SENSORIAL/U1/U1/multOp is absorbed into DSP U0/U1/
 DSP Report: operator U0/U1/U2_SENSORIAL/U1/U1/multOp is absorbed into DSP U0/U1/U2_SENSORIAL/U1/U1/multOp.
 WARNING: [Synth 8-3917] design sens_teste has port an[2] driven by constant 1
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 800.180 ; gain = 494.125
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:01:01 . Memory (MB): peak = 800.707 ; gain = 494.156
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -442,13 +442,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:23 ; elapsed = 00:01:24 . Memory (MB): peak = 852.992 ; gain = 546.938
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:23 ; elapsed = 00:01:25 . Memory (MB): peak = 853.277 ; gain = 546.727
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:23 ; elapsed = 00:01:24 . Memory (MB): peak = 854.996 ; gain = 548.941
+Finished Timing Optimization : Time (s): cpu = 00:01:24 ; elapsed = 00:01:26 . Memory (MB): peak = 876.008 ; gain = 569.457
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -461,7 +461,7 @@ Start Technology Mapping
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/temp_reg.vhd:52]
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:25 ; elapsed = 00:01:26 . Memory (MB): peak = 915.922 ; gain = 609.867
+Finished Technology Mapping : Time (s): cpu = 00:01:26 ; elapsed = 00:01:28 . Memory (MB): peak = 918.629 ; gain = 612.078
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -485,7 +485,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:27 ; elapsed = 00:01:28 . Memory (MB): peak = 915.922 ; gain = 609.867
+Finished IO Insertion : Time (s): cpu = 00:01:28 ; elapsed = 00:01:31 . Memory (MB): peak = 918.629 ; gain = 612.078
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -498,7 +498,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:27 ; elapsed = 00:01:28 . Memory (MB): peak = 915.922 ; gain = 609.867
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:28 ; elapsed = 00:01:31 . Memory (MB): peak = 918.629 ; gain = 612.078
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -510,25 +510,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:27 ; elapsed = 00:01:28 . Memory (MB): peak = 915.922 ; gain = 609.867
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:29 ; elapsed = 00:01:31 . Memory (MB): peak = 918.629 ; gain = 612.078
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:27 ; elapsed = 00:01:28 . Memory (MB): peak = 915.922 ; gain = 609.867
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:29 ; elapsed = 00:01:31 . Memory (MB): peak = 918.629 ; gain = 612.078
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:27 ; elapsed = 00:01:29 . Memory (MB): peak = 915.922 ; gain = 609.867
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:29 ; elapsed = 00:01:31 . Memory (MB): peak = 918.629 ; gain = 612.078
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:27 ; elapsed = 00:01:29 . Memory (MB): peak = 915.922 ; gain = 609.867
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:29 ; elapsed = 00:01:31 . Memory (MB): peak = 918.629 ; gain = 612.078
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -591,27 +591,27 @@ Report Instance Areas:
 |18    |  U1               |display_decoder      |    96|
 +------+-------------------+---------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:27 ; elapsed = 00:01:29 . Memory (MB): peak = 915.922 ; gain = 609.867
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:29 ; elapsed = 00:01:31 . Memory (MB): peak = 918.629 ; gain = 612.078
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:11 ; elapsed = 00:01:18 . Memory (MB): peak = 915.922 ; gain = 282.926
-Synthesis Optimization Complete : Time (s): cpu = 00:01:28 ; elapsed = 00:01:29 . Memory (MB): peak = 915.922 ; gain = 609.867
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:12 ; elapsed = 00:01:20 . Memory (MB): peak = 918.629 ; gain = 282.961
+Synthesis Optimization Complete : Time (s): cpu = 00:01:29 ; elapsed = 00:01:32 . Memory (MB): peak = 918.629 ; gain = 612.078
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 145 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 915.922 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 918.629 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 101 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:32 ; elapsed = 00:01:34 . Memory (MB): peak = 915.922 ; gain = 621.527
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 915.922 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:33 ; elapsed = 00:01:36 . Memory (MB): peak = 918.629 ; gain = 623.738
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 918.629 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.runs/synth_1/sens_teste.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file sens_teste_utilization_synth.rpt -pb sens_teste_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri May 10 15:00:35 2019...
+INFO: [Common 17-206] Exiting Vivado at Fri May 10 21:53:27 2019...

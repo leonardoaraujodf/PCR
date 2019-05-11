@@ -1,15 +1,7 @@
 Vivado Simulator 2018.3
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 4cc7f7df306e433c8238ac2f76e0a9d5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot display_decoder_behav xil_defaultlib.display_decoder -log elaborate.log 
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 4cc7f7df306e433c8238ac2f76e0a9d5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot tb_sensorial_behav xil_defaultlib.tb_sensorial -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.numeric_std
-Compiling architecture behavioral of entity xil_defaultlib.display_decoder
-Built simulation snapshot display_decoder_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
