@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ping_pong_fsm.srcs/sources_1/new/fsm_ping_pong.vhd" \
+"../../../../ping_pong_fsm.srcs/sources_1/new/op_block_ping_pong.vhd" \
+"../../../../ping_pong_fsm.srcs/sources_1/new/ping_pong.vhd" \
+"../../../../ping_pong_fsm.srcs/sim_1/new/tb_ping_pong.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,118 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May 15 00:15:04 2019
+# Process ID: 6260
+# Current directory: C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6256 C:\Users\Leonardo\Documents\Arquivos Leonardo\UnB\9 Semestre\Projeto de Circuitos Reconfiguraveis\PCR\Listas_de_Exercicios\ping_pong_fsm\ping_pong_fsm.xpr
+# Log file: C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/vivado.log
+# Journal file: C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.xpr}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sources_1/new/fsm_ping_pong.vhd} w ]
+add_files {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sources_1/new/fsm_ping_pong.vhd}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sources_1/new/control_logic_ping_pong.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sources_1/new/control_logic_ping_pong.vhd}}
+file delete -force {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sources_1/new/control_logic_ping_pong.vhd}
+close [ open {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sources_1/new/ping_pong.vhd} w ]
+add_files {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sources_1/new/ping_pong.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sim_1/new
+file mkdir C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sim_1/new
+file mkdir C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sim_1/new
+file mkdir C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sim_1/new
+file mkdir C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sim_1/new
+file mkdir {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sim_1/new}
+close [ open {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sim_1/new/tb_ping_pong.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sim_1/new/tb_ping_pong.vhd}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_ping_pong [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_ping_pong.tcl
+restart
+run 1 us
+relaunch_sim
+relaunch_sim
+restart
+run 1 us
+restart
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+restart
+run 2 us
+relaunch_sim
+restart
+run 2 us
+relaunch_sim
+restart
+run 2 us
+relaunch_sim
+restart
+run 2 us
+restart
+run 2 us
+relaunch_sim
+restart
+run 2 us
+restart
+relaunch_sim
+restart
+run 2 us
+relaunch_sim
+restart
+run 2 us
+relaunch_sim
+restart
+run 2 us
+restart
+run 3 us
+close_sim
+close [ open {C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sources_1/new/test_ping_pong.vhd} w ]
+add_files {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Listas_de_Exercicios/ping_pong_fsm/ping_pong_fsm.srcs/sources_1/new/test_ping_pong.vhd}}
+update_compile_order -fileset sources_1
+import_files -norecurse {{C:/Users/Leonardo/Documents/Arquivos Leonardo/UnB/9 Semestre/Projeto de Circuitos Reconfiguraveis/PCR/Prova1/funcao_sensorial/funcao_sensorial.srcs/sources_1/new/display_decoder.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+synth_design -rtl -name rtl_1
+close_design
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+close_design
+open_run impl_1
+report_utilization -name utilization_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+report_power -name {power_1}
